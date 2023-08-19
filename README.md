@@ -5,7 +5,7 @@
 
 The dataset contains 4 main categories of teachers' frequent teaching actions in the teaching process. There are a total of 3998 video samples, covering 9 secondary school subjects. The details are shown in Figure 1.
 ![Figure 1: An Overview and distribution of TAQA dataset.](https://github.com/aauthorsanonymous/TAQADataset/assets/142662941/e0d09d2a-e746-4af3-b509-546fc54b18a8)
-Figure 1: An Overview and distribution of TAQA dataset.
+                            Figure 1: An Overview and distribution of TAQA dataset.
 
 **Action_type** represents the action category, and the dataset contains a total of four actions, namely Pointing to teaching devices, Asking students to answer questions, Tour guide and Blackboard-writing. 
 

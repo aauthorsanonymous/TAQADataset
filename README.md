@@ -40,8 +40,7 @@ You can download our prepared TAQA dataset demo from [Google Drive](https://driv
 #### Training & Evaluation
 To train and evaluate the TAAM model on TAQA:
 
-python -u main.py  --lr 1e-4 --weight_decay 1e-5 --gpu 0
-
+`python -u main.py  --lr 1e-4 --weight_decay 1e-5 --gpu 0`
 
 
 If you use the TAQA dataset, please cite this paper:

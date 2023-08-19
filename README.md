@@ -35,7 +35,7 @@ About the Teacher Action Assessment Model (TAAM) model
 ### Dataset Preparation
 #### TAQA dataset
  
-If the article is accepted for publication, you can download our prepared TAQA dataset demo from ([Google Drive]([https://drive.google.com/open?id=1T7bVrqdElRLoR3l6TxddFQNPAUIgAJL7])).(https://drive.google.com/drive/folders/1UaqtLGsA_pMyOZvoh7IG4IVM9K8siYot?usp=sharing)). Then, please move the uncompressed data folder to `TAQA/data/frames`. We used the I3D backbone pretrained on Kinetics([Google Drive](https://drive.google.com/open?id=1M_4hN-beZpa-eiYCvIE7hsORjF18LEYU)).
+If the article is accepted for publication, you can download our prepared TAQA dataset demo from [Google Drive]([https://drive.google.com/open?id=1T7bVrqdElRLoR3l6TxddFQNPAUIgAJL7]).(https://drive.google.com/drive/folders/1UaqtLGsA_pMyOZvoh7IG4IVM9K8siYot?usp=sharing)). Then, please move the uncompressed data folder to `TAQA/data/frames`. We used the I3D backbone pretrained on Kinetics([Google Drive](https://drive.google.com/open?id=1M_4hN-beZpa-eiYCvIE7hsORjF18LEYU)).
  
 #### Training & Evaluation
 To train and evaluate the TAAM model on TAQA:

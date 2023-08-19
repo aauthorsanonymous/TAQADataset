@@ -1,7 +1,10 @@
 # TAQADataset
-#Teacher Action Quality Assessment Dataset（TAQA）
+Teacher Action Quality Assessment Dataset（TAQA）
+=================================================
 
-##About the dataset
+About the dataset
+-----------------
+
 
 The dataset contains 4 main categories of teachers' frequent teaching actions in the teaching process. There are a total of 3998 video samples, covering 9 secondary school subjects. The details are shown in Figure 1.
 ![Figure 1: An Overview and distribution of TAQA dataset.](https://github.com/aauthorsanonymous/TAQADataset/assets/142662941/e0d09d2a-e746-4af3-b509-546fc54b18a8)

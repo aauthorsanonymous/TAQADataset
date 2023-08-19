@@ -1,8 +1,6 @@
 # TAQADataset
-Teacher Action Quality Assessment Dataset（TAQA）
-=================================================
 
-About the dataset
+About the Teacher Action Quality Assessment Dataset（TAQA）dataset
 -----------------
 
 
@@ -21,3 +19,29 @@ The dataset contains 4 main categories of teachers' frequent teaching actions in
 **Judge_scores** indicate the score of teacher action by each education expert. Final_score is the final score of the action video.
 
 **The detailed partition of training set and test set is given in our paper.**
+
+
+
+About the Teacher Action Assessment Model (TAAM) model
+-------------------------------------------------------
+
+### Requirement
+ 
+   
+- Python >= 3.6
+- Pytorch >=1.8.0
+ 
+ 
+### Dataset Preparation
+#### TAQA dataset
+ 
+You can download our prepared TAQA dataset demo from [Google Drive](https://drive.google.com/open?id=1T7bVrqdElRLoR3l6TxddFQNPAUIgAJL7). Then, please move the uncompressed data folder to `TAQA/data/frames`. We used the I3D backbone pretrained on Kinetics([Google Drive](https://drive.google.com/open?id=1M_4hN-beZpa-eiYCvIE7hsORjF18LEYU)).
+ 
+#### Training & Evaluation
+To train and evaluate the TAAM model on TAQA:
+``` python -u main.py  --lr 1e-4 --weight_decay 1e-5 --gpu 0
+
+
+
+If you use the TAQA dataset, please cite this paper:
+A Teacher Action Assessment Model based on a new assessment dataset

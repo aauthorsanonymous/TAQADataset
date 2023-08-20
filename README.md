@@ -1,6 +1,6 @@
 # TAQADataset
 
-About the Teacher Action Quality Assessment Dataset（TAQA）dataset
+About the Teacher Action Quality Assessment Dataset（TAQA）
 -----------------
 
 
